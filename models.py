@@ -1,4 +1,4 @@
-from sqlalchemy.orm import declarative_base, relationship, Session
+from sqlalchemy.orm import declarative_base, relationship
 from sqlalchemy import Column, Integer, String, ForeignKey, create_engine, Boolean, Float, Table
 
 # 1. KORAK - Priprema Base klase (kao u tvom app.py)
